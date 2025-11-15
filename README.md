@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TripMind Trip Planner
 
-# Run and deploy your AI Studio app
+TripMind is an intelligent travel planning web application that leverages the power of Google's Gemini API to generate personalized, day-by-day itineraries. Plan your next adventure with an AI-powered assistant that crafts the perfect trip based on your destinations, interests, and dates.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1RDU9fZmlHDoXBUd51CHLFNMtdqFRZc-H
+-   **Interactive Destination Selection**: Choose your destinations by typing them in or by clicking on a beautiful, AI-generated map of China.
+-   **Dynamic Itinerary Generation**: The AI analyzes your selections to create an optimized daily schedule, minimizing travel time and maximizing your experience.
+-   **Detailed Daily Plans**: Get a full breakdown for each day, including morning, afternoon, and evening activities with descriptions, locations, and travel logistics.
+-   **Points of Interest**: Discover neighborhoods, attractions, and restaurants for each city, complete with descriptions and ratings sourced from Google Maps.
+-   **Visual Trip Overview**: See your entire journey and daily routes on stylized, AI-generated maps that bring your trip to life.
+-   **Responsive Design**: Plan your trip on any device, whether you're at your desk or on the go.
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  Node.js
+-   **Frontend**: React, TypeScript, Tailwind CSS
+-   **Core AI**: Google Gemini API
+-   **Maps Integration**: Grounding with Google Maps and Google Search for real-time data.
 
+## ⚙️ Setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To run this project, you need to serve the files using a local web server. The application expects a Google Gemini API key to be available in the execution environment.
