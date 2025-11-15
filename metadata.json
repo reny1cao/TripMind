@@ -1,0 +1,7 @@
+{
+  "name": "TripMind Trip Planner",
+  "description": "An AI-powered travel planning portal that generates personalized, day-by-day itineraries based on your selected destinations, interests, and dates.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
